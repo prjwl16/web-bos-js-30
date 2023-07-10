@@ -1,0 +1,22 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: url("assets/bg.jpeg") fixed;
+}
+.buttons{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    margin: 2px;
+}
+
