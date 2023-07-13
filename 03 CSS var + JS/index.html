@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Variables</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Update CSS Variables with
+        <span>JS</span></h1>
+      <div class="controls">
+        <div class="space">
+            <label for="spacing">Spacing</label> </br>
+            <input type="range" value="100" id="spacing" name="spacing" min="100" max="450" data-sizing="px"/>
+        </div>
+        <div class="blur">
+            <label for="blur">Blur</label> </br>
+            <input type="range" value="3" id="blur" name="blur" min="0" max="10"data-sizing="px" />
+        </div>
+        <div class="color">
+            <label for="base">Base color</label>
+            <input type="color" id="base" name="base" value="#ff0000">
+        </div>        
+      </div>
+      <div class="image">
+        <img src="https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+      </div>
+    </div>
+  </body>
+</html>
