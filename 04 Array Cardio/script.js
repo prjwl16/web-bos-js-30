@@ -126,6 +126,10 @@ const myPpl = people.sort((a, b) => {
 
 const words = ["apple", "banana", "cherry", "apple", "banana", "apple"];
 
-const instances = words.reduce((s, e) => {}, 0);
+var instances = words.reduce((s, e) => {}, 0);
+
+words.map((word) => {
+  word;
+});
 
 console.table(instances);
